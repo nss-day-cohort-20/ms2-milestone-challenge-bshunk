@@ -1,1 +1,6 @@
-console.log("greetings, captain!")
+console.log("cars")
+
+
+var CarLot = {};
+
+
