@@ -1,0 +1,25 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+    	"make": "Honda",
+    	"model": "CRV",
+    	"year": "2008",
+    	"price": "4000",
+    	"description": "This is an stunning 2008 Honda CRV with only 20,000 miles on it. Cloth seats, power everything, 4WD, and a tow package comes installed."
+    },
+    {
+    	"make": "Toyota",
+    	"model": "Tacoma",
+    	"year": "2017",
+    	"price": "15999",
+    	"description": "This is a brand-new 2017 Toyota Tacoma. Extended cab with an extended bed, leather seats, power everything, 4WD, and a tow package comes installed."
+    }
+  ]
+}
