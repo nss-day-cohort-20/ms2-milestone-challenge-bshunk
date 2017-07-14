@@ -10,9 +10,12 @@ var CarLot = (function (globalScopeCarLot) {
   let inventory = Object.create(null, {
     loadInventory: function (callback) {
       var load = new XMLHttpRequest();
-
       inventoryLoader.addEventListener("load", function () {
         // Add each car to the private _car_inventory array
+        load.addEventListener("load", function (){})
+        load.addEventListener("error", XHRFail);
+        load.open("GET", "inventory.json")
+        load.send()
       });
     }
   });
@@ -24,3 +27,29 @@ var CarLot = (function (globalScopeCarLot) {
   // CarLot will be `undefined` and a new empty object
   // will augmented.
 })(CarLot || {});
+
+
+function setArr() {
+
+  // set array to equal the parsed json file so it's not displayed like a straight JSON file 
+  array = JSON.parse(this.responseText)
+
+  // calls outputCards function and passes array into the function
+  outputCards(array)
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
