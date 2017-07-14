@@ -1,7 +1,7 @@
 // This IIFE will add a new module to Carlot in the
 // namespace of CarLot.Inventory
 var CarLot = (function (globalScopeCarLot) {
-
+  console.log("this function is running")
   // Define a private scope variable to store cars
   let _car_inventory = [];  
 

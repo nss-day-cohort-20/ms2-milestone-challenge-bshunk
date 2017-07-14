@@ -21,5 +21,12 @@
     	"price": "15999",
     	"description": "This is a brand-new 2017 Toyota Tacoma. Extended cab with an extended bed, leather seats, power everything, 4WD, and a tow package comes installed."
     }
+    {
+      "make": "Chevroley",
+      "model": "Silverado",
+      "year": "2016",
+      "price": "19999",
+      "description": "Brand-new, tow package, black leather interior, custom wood dashboard, all the bells and whistles!"
+    }
   ]
 }

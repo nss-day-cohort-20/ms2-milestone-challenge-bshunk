@@ -1,6 +1,4 @@
-console.log("cars")
+var globalScopeCarLot = {};
 
-
-var CarLot = {};
 
 
