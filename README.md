@@ -23,22 +23,6 @@ You operate a used car lot, and need to have an application where you can update
 
 Remember to design your system first. Modularity. Single Responsiblity. Once you've defined the modules of the system, then write an IIFE for each one.
 
-##### inventory.json
-
-```json
-{
-  "cars": [
-    {
-      "make": "Nissan",
-      "model": "Rogue",
-      "year": "2006",
-      "price": "8999",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
-    }
-  ]
-}
-```
-
 ##### CarLot.js
 
 ```js

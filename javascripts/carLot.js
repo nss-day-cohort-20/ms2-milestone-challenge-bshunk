@@ -1,5 +1,8 @@
-// This IIFE will add a new module to Carlot in the
-// namespace of CarLot.Inventory
+let container = document.getElementsByClassName("container");
+let input = document.getElementById("input");
+let cars = "";
+let card = [];
+
 var CarLot = (function (globalScopeCarLot) {
   console.log("this function is running")
   // Define a private scope variable to store cars
@@ -29,14 +32,9 @@ var CarLot = (function (globalScopeCarLot) {
 })(CarLot || {});
 
 
-function setArr() {
-
-  // set array to equal the parsed json file so it's not displayed like a straight JSON file 
-  array = JSON.parse(this.responseText)
-
-  // calls outputCards function and passes array into the function
-  outputCards(array)
-};
+// array = JSON.parse(this.responseText)
+// calls outputCards function and passes array into the function
+// outputCards(array)
 
 
 
