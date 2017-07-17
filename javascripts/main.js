@@ -1,10 +1,2 @@
 
-
-
-
-
 var globalScopeCarLot = {};
-
-
-
-
